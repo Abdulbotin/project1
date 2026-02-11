@@ -190,6 +190,63 @@ body{
     color: green;
     margin-top: 20px;
 }
+.pp{
+    background-color: black;
+    padding: 20px;
+}
+.aa{
+    display: flex;
+   align-items: center;
+   margin-left: 10%;
+}
+.ss{
+    font-size: 30px;  
+     font-weight: 900;
+     color: white;
+     margin-left: 10%;
+     margin-top: 10px;
+}
+.dd{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+.ff{
+    font-size: 25px;
+    font-weight: 900;
+}
+.gg{
+    width: 86%;
+}
+.hh{
+    border: 1px solid gray;
+   width: 20%;
+}
+.jj{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    
+  
+}
+.hh{
+    margin-left: 250px;
+}
+.kk{
+    border: 1px solid gray;
+   width: 20%;
+}
+.ll{
+    border: 1px solid gray;
+   width: 20%;
+}
+.zz{
+    display: flex;
+    align-items: center;
+}
+.xx{
+    width: 100px;
+}
 @media(max-width: 500px){
     .ee{
   
