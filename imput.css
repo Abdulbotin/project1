@@ -76,8 +76,8 @@ body{
     background-image: 
         linear-gradient(
             to top right, 
-            rgba(0, 0, 0, 0.97),   /* сиёҳ аз кунҷи поёни чап */
-            rgba(0, 0, 0, 0)    /* равшантар ба боло ва рост */
+            rgba(0, 0, 0, 0.97),   
+            rgba(0, 0, 0, 0)   
         ),
         url("img.png");
 
@@ -86,8 +86,58 @@ body{
     background-repeat: no-repeat;
 }
 
+.j{
+    display: flex;
+    align-items: center;
+}
+.k{
+    font-size: 60px;
+    color: hsl(138, 49%, 58%);
+    font: 900;
+    font-weight: 400;
+}
+.l{
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+    gap: 100px;
+    display: flex;
+    align-items: start;
+    margin-top: 100px;
+   
+  
 
+
+}
+.z{
+    font-size: 40px;
+    font-weight: 900;
+}
+.x{
+    width: 100%;
+    margin-top: 20px;
+    color: rgb(67, 64, 64);
+}
+.c{
+    width: 100%;
+    margin-top: 20px;
+    color: rgb(67, 64, 64);
+
+}
+.v{
+    margin-top: 20px;
+    color: rgb(67, 64, 64);
+
+}
+.b{
+    width: 340px;
+    height: 340px;
+}
 @media(max-width: 500px){
+    .l{
+        flex-direction: column;
+        width: 90%;
+    }
     .h{
         margin-left: 70%;
         margin-top: 100px;
