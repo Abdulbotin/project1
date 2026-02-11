@@ -324,7 +324,43 @@ body{
     bottom: 110px;
     left: 170px;
 }
+.ddd{
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 10%;
+}
+.fff{
+    margin-left: 10%;
+     display: flex;
+   align-items: center;
+   margin-top: 100px;
+  
+}
+.ggg{
+    border: 1px solid gray;
+    width: 10%;
+   
+}
+.hhh{
+    width: 90%;
+}
+.jjj{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.hhh{
+    margin-top: 20px;
+}
+.kkk{
+     display: flex;
+    margin-left: 10%;
+ 
+}
 @media(max-width: 500px){
+    .ggg{
+      display: none;
+    }
     .ooo{
         display: none;
     }
