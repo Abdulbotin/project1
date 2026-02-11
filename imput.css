@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;   
+}
+
+
+
+.w{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+   padding-top: 30px;
+  
+}
+.e{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.r{
+    background-color: rgba(0, 0, 0, 0.408) ;
+    width: 100%;
+    height: 100vh;
+ 
+
+}
+.t{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.p{
+    color: white;
+    margin-left: 10%;
+    padding-top: 10%;
+}
+.a{
+    width: 25%;
+    margin-top: 20px;
+}
+.s{
+    width: 259px;
+    height: 60px;
+    background-color: #60C880;
+    border-radius: 200px;
+    border: none;
+    margin-top: 20px;
+}
+.d{
+    font-size: 45px;
+    font: 900;
+}
+.f{
+    color: #60C880;
+}
+.g{
+ 
+}
+.h{
+    margin-left: 80%;
+   
+}
+
+
+
+
+.q {
+    width: 100%;
+    height: 100vh;
+    background-image: 
+        linear-gradient(
+            to top right, 
+            rgba(0, 0, 0, 0.97),   /* сиёҳ аз кунҷи поёни чап */
+            rgba(0, 0, 0, 0)    /* равшантар ба боло ва рост */
+        ),
+        url("img.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width: 500px){
+    .h{
+        margin-left: 70%;
+        margin-top: 100px;
+        width: 80px;
+    }
+    .a{
+        width: 90%;
+    }
+    .o{
+        display: none;
+    }
+    .i{
+       
+    }
+    .u{
+        display: none;
+    }
+    .e{
+
+       flex-direction: row-reverse;
+    }
+    .w{
+        width: 90%;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
