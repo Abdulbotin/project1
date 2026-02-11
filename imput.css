@@ -435,7 +435,116 @@ body{
    padding: 20px; 
    width: 23%;
 }
+.a1{
+    background-color: #60C880;
+    height: 330px;
+    margin-top: 100px;
+}
+.s1{
+    color: white;
+}
+.d1{
+    margin-top: 8px;
+     font-size: 60px;
+   color: white;
+    font-weight: 400;
+}
+.f1{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    margin-left: 10%;
+    
+}
+.g1{
+    color: white;
+    margin-left: 10%;
+}
+.h1{
+    border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+.j1{
+     border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.k1{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.l1{
+     border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.z1{
+    color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.x1{
+    background-color: black;
+    height: 400px;
+}
+.c1{
+     width: 239px;
+    height: 30px;
+    background-color: #60C880;
+    border-radius: 200px;
+    border: none;
+    margin-top: 20px;
+}
+.v1{
+    display: flex;
+    color: white;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 100px;
+   
+}
+.b1{
+    margin-top: 10px;
+}
+.n1{
+    margin-top: 80px;
+}
+.m1{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    margin-top: 30px;
+}
 @media(max-width: 500px){
+    .x1{
+        height: 700px;
+    }
+    .v1{
+        flex-direction: column;
+    }
+    .z1{
+        margin-left: 0;
+        font-size: 15px;
+    }
+    .h1{
+        margin-left: 0;
+    }
+    .a1{
+        height: 500px;
+    }
+    .k1{
+        flex-direction: column;
+    }
     .zzz{
         width: 43%;
     }
